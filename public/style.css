@@ -1,0 +1,85 @@
+/* index page */
+
+body{
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chatList, .chatEdit{
+    background-color: #9fd9ed;
+    padding-top: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    width: 20rem;
+    margin-bottom: 10px;
+}
+
+#msg{
+    background-color: #65ccf3;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#newChat{
+    padding: 4px;
+    background-color: #9fd9ed;
+    border :none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.buttons {
+  display: flex;        /* puts children in a row */
+  gap: 10px;            /* space between buttons */
+  justify-content: center; /* optional: center buttons horizontally */
+  margin-top: 20px;     /* optional spacing from form fields */
+}
+
+#edit, #delete, #send, #update{
+    padding: 4px;
+    background-color: #f8f1e7;
+    border :1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* new chat page */
+
+.newChat{
+    background-color: #9fd9ed;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    width: 20rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
